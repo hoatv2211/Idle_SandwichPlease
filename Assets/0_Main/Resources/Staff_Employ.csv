@@ -1,0 +1,13 @@
+map_id,id,level,value,type_upgrade,cost
+1,staff_employ_1_0,0,0,free,0
+1,staff_employ_1_1,1,1,coin,0
+1,staff_employ_1_2,2,2,coin,900
+1,staff_employ_1_3,3,3,coin,2000
+1,staff_employ_1_4,4,4,coin,3000
+1,staff_employ_1_5,5,5,coin,4000
+2,staff_employ_2_0,0,0,free,0
+2,staff_employ_2_1,1,1,coin,0
+2,staff_employ_2_2,2,2,coin,1350
+2,staff_employ_2_3,3,3,coin,3000
+2,staff_employ_2_4,4,4,coin,4500
+2,staff_employ_2_5,5,5,coin,6000

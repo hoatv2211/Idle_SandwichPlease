@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4510327676053387146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4510327676053387144}
+  - component: {fileID: 4510327676053387147}
+  - component: {fileID: 22623406}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4510327676053387144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4510327676053387146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4510327676053387147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4510327676053387146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630781b5aaeec0041ab208231262ac18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentMap:
+    mapID: 1
+    playerData:
+      mapID: 1
+      idUnit: 1_player
+      unitName: -1
+      isUnlocked: 1
+      costUnlock: 10
+      crLevel: 1
+      maxLevel: 2
+      objectType: 0
+      carryStack: 4
+      speed: 4
+      carryLvl: 1
+      speedLvl: 1
+    workerData:
+      mapID: 
+      idUnit: 
+      unitName: -1
+      isUnlocked: 0
+      costUnlock: 10
+      crLevel: 1
+      maxLevel: 5
+      carryStack: 0
+      speed: 0
+    upgradePlayer:
+      lvCapacity: 0
+      lvSpeed: 0
+      lvProfit: 0
+      capacities:
+      - level: 0
+        value: 2
+        typeUpgrade: 0
+        cost: 0
+      - level: 1
+        value: 3
+        typeUpgrade: 0
+        cost: 0
+      - level: 2
+        value: 3
+        typeUpgrade: 1
+        cost: 200
+      - level: 3
+        value: 5
+        typeUpgrade: 1
+        cost: 700
+      - level: 4
+        value: 8
+        typeUpgrade: 1
+        cost: 1300
+      - level: 5
+        value: 8
+        typeUpgrade: 1
+        cost: 2000
+      speeds:
+      - level: 0
+        value: 3
+        typeUpgrade: 0
+        cost: 0
+      - level: 1
+        value: 3.5
+        typeUpgrade: 1
+        cost: 200
+      - level: 2
+        value: 4
+        typeUpgrade: 1
+        cost: 300
+      - level: 3
+        value: 4.5
+        typeUpgrade: 1
+        cost: 800
+      - level: 4
+        value: 5
+        typeUpgrade: 1
+        cost: 1400
+      - level: 5
+        value: 5
+        typeUpgrade: 1
+        cost: 2200
+      profitups:
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+    upgradeStaff:
+      lvCapacity: 0
+      lvSpeed: 0
+      lvEmploy: 0
+      capacity:
+      - level: 0
+        value: 2
+        typeUpgrade: 0
+        cost: 0
+      - level: 1
+        value: 3
+        typeUpgrade: 0
+        cost: 0
+      - level: 2
+        value: 3
+        typeUpgrade: 1
+        cost: 200
+      - level: 3
+        value: 5
+        typeUpgrade: 1
+        cost: 700
+      - level: 4
+        value: 8
+        typeUpgrade: 1
+        cost: 1300
+      - level: 5
+        value: 8
+        typeUpgrade: 1
+        cost: 2000
+      speed:
+      - level: 0
+        value: 2
+        typeUpgrade: 0
+        cost: 0
+      - level: 1
+        value: 2.5
+        typeUpgrade: 1
+        cost: 200
+      - level: 2
+        value: 3
+        typeUpgrade: 1
+        cost: 300
+      - level: 3
+        value: 3.5
+        typeUpgrade: 1
+        cost: 800
+      - level: 4
+        value: 4
+        typeUpgrade: 1
+        cost: 1400
+      - level: 5
+        value: 4.5
+        typeUpgrade: 1
+        cost: 2200
+      employ:
+      - level: 0
+        value: 1
+        typeUpgrade: 1
+        cost: 200
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 500
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 800
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 1200
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 1600
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 2000
+    unlocked_UnitDatas: []
+    customerDatas:
+    - mapID: 1
+      idUnit: 
+      unitName: -1
+      isUnlocked: 0
+      costUnlock: 10
+      crLevel: 1
+      maxLevel: 2
+      isVip: 0
+      moveSpeed: 3
+      stackProduct: 3
+      productList: 
+    unitDatas: []
+  mapDatas:
+  - mapID: 1
+    playerData:
+      mapID: 1
+      idUnit: 1_player
+      unitName: -1
+      isUnlocked: 1
+      costUnlock: 10
+      crLevel: 1
+      maxLevel: 2
+      objectType: 0
+      carryStack: 4
+      speed: 4
+      carryLvl: 1
+      speedLvl: 1
+    workerData:
+      mapID: 
+      idUnit: 
+      unitName: -1
+      isUnlocked: 0
+      costUnlock: 10
+      crLevel: 1
+      maxLevel: 5
+      carryStack: 0
+      speed: 0
+    upgradePlayer:
+      lvCapacity: 0
+      lvSpeed: 0
+      lvProfit: 0
+      capacities:
+      - level: 0
+        value: 2
+        typeUpgrade: 0
+        cost: 0
+      - level: 1
+        value: 3
+        typeUpgrade: 0
+        cost: 0
+      - level: 2
+        value: 3
+        typeUpgrade: 1
+        cost: 200
+      - level: 3
+        value: 5
+        typeUpgrade: 1
+        cost: 700
+      - level: 4
+        value: 8
+        typeUpgrade: 1
+        cost: 1300
+      - level: 5
+        value: 8
+        typeUpgrade: 1
+        cost: 2000
+      speeds:
+      - level: 0
+        value: 3
+        typeUpgrade: 0
+        cost: 0
+      - level: 1
+        value: 3.5
+        typeUpgrade: 1
+        cost: 200
+      - level: 2
+        value: 4
+        typeUpgrade: 1
+        cost: 300
+      - level: 3
+        value: 4.5
+        typeUpgrade: 1
+        cost: 800
+      - level: 4
+        value: 5
+        typeUpgrade: 1
+        cost: 1400
+      - level: 5
+        value: 5
+        typeUpgrade: 1
+        cost: 2200
+      profitups:
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+      - level: 0
+        value: 0
+        typeUpgrade: 0
+        cost: 0
+    upgradeStaff:
+      lvCapacity: 0
+      lvSpeed: 0
+      lvEmploy: 0
+      capacity:
+      - level: 0
+        value: 2
+        typeUpgrade: 0
+        cost: 0
+      - level: 1
+        value: 3
+        typeUpgrade: 0
+        cost: 0
+      - level: 2
+        value: 3
+        typeUpgrade: 1
+        cost: 200
+      - level: 3
+        value: 5
+        typeUpgrade: 1
+        cost: 700
+      - level: 4
+        value: 8
+        typeUpgrade: 1
+        cost: 1300
+      - level: 5
+        value: 8
+        typeUpgrade: 1
+        cost: 2000
+      speed:
+      - level: 0
+        value: 2
+        typeUpgrade: 0
+        cost: 0
+      - level: 1
+        value: 2.5
+        typeUpgrade: 1
+        cost: 200
+      - level: 2
+        value: 3
+        typeUpgrade: 1
+        cost: 300
+      - level: 3
+        value: 3.5
+        typeUpgrade: 1
+        cost: 800
+      - level: 4
+        value: 4
+        typeUpgrade: 1
+        cost: 1400
+      - level: 5
+        value: 4.5
+        typeUpgrade: 1
+        cost: 2200
+      employ:
+      - level: 0
+        value: 1
+        typeUpgrade: 1
+        cost: 200
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 500
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 800
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 1200
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 1600
+      - level: 0
+        value: 0
+        typeUpgrade: 1
+        cost: 2000
+    unlocked_UnitDatas: []
+    customerDatas:
+    - mapID: 1
+      idUnit: 
+      unitName: -1
+      isUnlocked: 0
+      costUnlock: 10
+      crLevel: 1
+      maxLevel: 2
+      isVip: 0
+      moveSpeed: 3
+      stackProduct: 3
+      productList: 
+    unitDatas: []
+--- !u!114 &22623406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4510327676053387146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493122ed9c8c0c3409f6cd0d973b0533, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitBases:
+  - {fileID: 2048314692898127998, guid: a99e4cda87907034688739f11de2c4ad, type: 3}
+  customerUnits:
+  - {fileID: 2068954168300825780, guid: 652efcb4aae34a92a54c760d70ab0007, type: 3}
+  carUnits:
+  - {fileID: 9616660985830003, guid: 43ab1f288f0fd5840b1572aead142fcd, type: 3}
+  workerUnits:
+  - {fileID: 6181085259271950021, guid: 5ca10088019c6df42a272691224aabb0, type: 3}
+  trashPieces:
+  - {fileID: 3974076975248422936, guid: c5f758fa6eeb415692bdc8b3ad40cf40, type: 3}

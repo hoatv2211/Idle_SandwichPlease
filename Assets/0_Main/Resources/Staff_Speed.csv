@@ -1,0 +1,13 @@
+map_id,id,level,value,type_upgrade,cost
+1,staff_speed_1_0,0,1.5,free,0
+1,staff_speed_1_1,1,1.75,coin,200
+1,staff_speed_1_2,2,2,coin,300
+1,staff_speed_1_3,3,2.25,coin,900
+1,staff_speed_1_4,4,2.5,coin,1600
+1,staff_speed_1_5,5,2.75,coin,3200
+2,staff_speed_2_0,0,1.5,free,0
+2,staff_speed_2_1,1,1.75,coin,300
+2,staff_speed_2_2,2,2,coin,450
+2,staff_speed_2_3,3,2.25,coin,1350
+2,staff_speed_2_4,4,2.5,coin,2400
+2,staff_speed_2_5,5,2.75,coin,4800

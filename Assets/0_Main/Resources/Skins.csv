@@ -1,0 +1,7 @@
+id_skin,name,typeSkin,speed_bonus,capaticy_bonus,staff_employ,staff_speed,staff_capacity,single_price_bonus,package_price_bonus,ads_cost,money_cost
+skin_normal,Staff,normal,0,0,0,0,0,0,0,0,0
+skin_clown,Clown,clown,1,,,,,,,1,200
+skin_chef,Chef,chef,1,2,,,,,,2,3000
+skin_fairy,Fairy,fairy,,,,2,2,,,3,20000
+skin_ceo,CEO,ceo,,,,,,2,4,3,25000
+skin_chicken,Chicken,chicken,,,1,3,3,,,5,150000

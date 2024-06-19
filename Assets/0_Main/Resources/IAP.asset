@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b9bcf64372edd944bb051e3dc48a3c4, type: 3}
+  m_Name: IAP
+  m_EditorClassIdentifier: 
+  productIAP:
+  - id: com.sandwich.removeads
+    name: com.sandwich.removeads
+    product_type: 1
+    type: 0
+    count: 1
+  - id: com.sandwich.vipsubscription
+    name: com.sandwich.vipsubscription
+    product_type: 1
+    type: 1
+    count: 1
+  - id: com.sandwich.premiumpro
+    name: com.sandwich.premiumpro
+    product_type: 1
+    type: 2
+    count: 1
+  - id: com.sandwich.adsfreepack
+    name: com.sandwich.adsfreepack
+    product_type: 1
+    type: 3
+    count: 1
+  - id: com.sandwich.growthoffer
+    name: com.sandwich.growthoffer
+    product_type: 1
+    type: 4
+    count: 1
+  - id: com.sandwich.moneypack1
+    name: com.sandwich.moneypack1
+    product_type: 0
+    type: 5
+    count: 1
+  - id: com.sandwich.moneypack2
+    name: com.sandwich.moneypack2
+    product_type: 0
+    type: 6
+    count: 1
+  - id: com.sandwich.moneypack3
+    name: com.sandwich.moneypack3
+    product_type: 0
+    type: 7
+    count: 1
+  - id: com.sandwich.moneypack4
+    name: com.sandwich.moneypack4
+    product_type: 0
+    type: 8
+    count: 1
+  - id: com.sandwich.moneypack5
+    name: com.sandwich.moneypack5
+    product_type: 0
+    type: 9
+    count: 1
+  - id: com.sandwich.moneypack6
+    name: com.sandwich.moneypack6
+    product_type: 0
+    type: 10
+    count: 1
+  - id: com.sandwich.ticketpack1
+    name: com.sandwich.ticketpack1
+    product_type: 0
+    type: 11
+    count: 1
+  - id: com.sandwich.ticketpack2
+    name: com.sandwich.ticketpack2
+    product_type: 0
+    type: 12
+    count: 1
+  - id: com.sandwich.ticketpack3
+    name: com.sandwich.ticketpack3
+    product_type: 0
+    type: 13
+    count: 1
+  - id: com.sandwich.ticketpack4
+    name: com.sandwich.ticketpack4
+    product_type: 0
+    type: 14
+    count: 1
+  - id: com.sandwich.ticketpack5
+    name: com.sandwich.ticketpack5
+    product_type: 0
+    type: 15
+    count: 1
+  - id: com.sandwich.ticketpack6
+    name: com.sandwich.ticketpack6
+    product_type: 0
+    type: 16
+    count: 1
+  - id: com.sandwich.submanager
+    name: com.sandwich.submanager
+    product_type: 0
+    type: 17
+    count: 1
+  - id: com.sandwich.subceo
+    name: com.sandwich.subceo
+    product_type: 0
+    type: 18
+    count: 1

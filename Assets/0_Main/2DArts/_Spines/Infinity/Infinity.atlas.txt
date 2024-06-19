@@ -1,0 +1,9 @@
+Infinity.png
+size:596,204
+filter:Linear,Linear
+pma:true
+hand-UI1
+bounds:414,2,200,179
+rotate:90
+infinity-symbol
+bounds:2,8,410,194

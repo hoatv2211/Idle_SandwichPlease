@@ -1,0 +1,565 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa66ea8c2c0e6b84591eef9cbde1a236, type: 3}
+  m_Name: BattlePassModel
+  m_EditorClassIdentifier: 
+  level_Users:
+  - level: 1
+    exp_req: 15
+    bonus_money: 100
+    value_quest: 15
+    booster_money: 400
+    bonus_free: bonus_free_1
+    bonus_manager: bonus_manager_1
+    bonus_ceo: bonus_ceo_1
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - none
+  - level: 2
+    exp_req: 24
+    bonus_money: 200
+    value_quest: 15
+    booster_money: 600
+    bonus_free: bonus_free_2
+    bonus_manager: bonus_manager_2
+    bonus_ceo: bonus_ceo_2
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - zone
+    - stucture
+  - level: 3
+    exp_req: 39
+    bonus_money: 300
+    value_quest: 15
+    booster_money: 800
+    bonus_free: bonus_free_3
+    bonus_manager: bonus_manager_3
+    bonus_ceo: bonus_ceo_3
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - zone
+    - stucture
+  - level: 4
+    exp_req: 54
+    bonus_money: 400
+    value_quest: 20
+    booster_money: 1000
+    bonus_free: bonus_free_4
+    bonus_manager: bonus_manager_4
+    bonus_ceo: bonus_ceo_4
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - zone
+    - stucture
+  - level: 5
+    exp_req: 78
+    bonus_money: 500
+    value_quest: 20
+    booster_money: 1200
+    bonus_free: bonus_free_5
+    bonus_manager: bonus_manager_5
+    bonus_ceo: bonus_ceo_5
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - zone
+    - stucture
+  - level: 6
+    exp_req: 96
+    bonus_money: 600
+    value_quest: 20
+    booster_money: 1400
+    bonus_free: bonus_free_6
+    bonus_manager: bonus_manager_6
+    bonus_ceo: bonus_ceo_6
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - stucture
+  - level: 7
+    exp_req: 117
+    bonus_money: 700
+    value_quest: 25
+    booster_money: 1600
+    bonus_free: bonus_free_7
+    bonus_manager: bonus_manager_7
+    bonus_ceo: bonus_ceo_7
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - stucture
+  - level: 8
+    exp_req: 135
+    bonus_money: 800
+    value_quest: 25
+    booster_money: 1800
+    bonus_free: bonus_free_8
+    bonus_manager: bonus_manager_8
+    bonus_ceo: bonus_ceo_8
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - newmap
+  - level: 9
+    exp_req: 150
+    bonus_money: 900
+    value_quest: 25
+    booster_money: 2000
+    bonus_free: bonus_free_9
+    bonus_manager: bonus_manager_9
+    bonus_ceo: bonus_ceo_9
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - zone
+    - stucture
+  - level: 10
+    exp_req: 168
+    bonus_money: 1000
+    value_quest: 30
+    booster_money: 2200
+    bonus_free: bonus_free_10
+    bonus_manager: bonus_manager_10
+    bonus_ceo: bonus_ceo_10
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - zone
+    - stucture
+  - level: 11
+    exp_req: 186
+    bonus_money: 1100
+    value_quest: 30
+    booster_money: 2400
+    bonus_free: bonus_free_11
+    bonus_manager: bonus_manager_11
+    bonus_ceo: bonus_ceo_11
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - stucture
+  - level: 12
+    exp_req: 207
+    bonus_money: 1200
+    value_quest: 30
+    booster_money: 2600
+    bonus_free: bonus_free_12
+    bonus_manager: bonus_manager_12
+    bonus_ceo: bonus_ceo_12
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - zone
+    - stucture
+  - level: 13
+    exp_req: 228
+    bonus_money: 1300
+    value_quest: 30
+    booster_money: 2800
+    bonus_free: bonus_free_13
+    bonus_manager: bonus_manager_13
+    bonus_ceo: bonus_ceo_13
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - stucture
+  - level: 14
+    exp_req: 249
+    bonus_money: 1400
+    value_quest: 30
+    booster_money: 3000
+    bonus_free: bonus_free_14
+    bonus_manager: bonus_manager_14
+    bonus_ceo: bonus_ceo_14
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - stucture
+  - level: 15
+    exp_req: 270
+    bonus_money: 1500
+    value_quest: 30
+    booster_money: 3200
+    bonus_free: bonus_free_15
+    bonus_manager: bonus_manager_15
+    bonus_ceo: bonus_ceo_15
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - stucture
+  - level: 16
+    exp_req: 285
+    bonus_money: 1600
+    value_quest: 30
+    booster_money: 3400
+    bonus_free: bonus_free_16
+    bonus_manager: bonus_manager_16
+    bonus_ceo: bonus_ceo_16
+    reward_free:
+      id: 
+      type: 0
+      value: 0
+    reward_manager:
+      id: 
+      type: 0
+      value: 0
+    reward_ceo:
+      id: 
+      type: 0
+      value: 0
+    feature_unlocks:
+    - zone
+    - stucture
+  reward_Battles:
+  - id: bonus_free_1
+    type: 0
+    value: 10
+  - id: bonus_free_2
+    type: 0
+    value: 20
+  - id: bonus_free_3
+    type: 0
+    value: 30
+  - id: bonus_free_4
+    type: 0
+    value: 80
+  - id: bonus_free_5
+    type: 1
+    value: 1
+  - id: bonus_free_6
+    type: 0
+    value: 200
+  - id: bonus_free_7
+    type: 0
+    value: 300
+  - id: bonus_free_8
+    type: 0
+    value: 450
+  - id: bonus_free_9
+    type: 0
+    value: 500
+  - id: bonus_free_10
+    type: 1
+    value: 2
+  - id: bonus_free_11
+    type: 0
+    value: 1200
+  - id: bonus_free_12
+    type: 0
+    value: 100
+  - id: bonus_free_13
+    type: 0
+    value: 200
+  - id: bonus_free_14
+    type: 0
+    value: 300
+  - id: bonus_free_15
+    type: 0
+    value: 800
+  - id: bonus_free_16
+    type: 1
+    value: 1
+  - id: bonus_free_17
+    type: 0
+    value: 2000
+  - id: bonus_free_18
+    type: 0
+    value: 3000
+  - id: bonus_free_19
+    type: 0
+    value: 4500
+  - id: bonus_free_20
+    type: 0
+    value: 5000
+  - id: bonus_free_21
+    type: 1
+    value: 2
+  - id: bonus_manager_1
+    type: 1
+    value: 10
+  - id: bonus_manager_2
+    type: 1
+    value: 3
+  - id: bonus_manager_3
+    type: 0
+    value: 180
+  - id: bonus_manager_4
+    type: 1
+    value: 3
+  - id: bonus_manager_5
+    type: 0
+    value: 510
+  - id: bonus_manager_6
+    type: 1
+    value: 3
+  - id: bonus_manager_7
+    type: 1
+    value: 3
+  - id: bonus_manager_8
+    type: 0
+    value: 1500
+  - id: bonus_manager_9
+    type: 1
+    value: 3
+  - id: bonus_manager_10
+    type: 0
+    value: 3600
+  - id: bonus_manager_11
+    type: 1
+    value: 3
+  - id: bonus_manager_12
+    type: 1
+    value: 10
+  - id: bonus_manager_13
+    type: 1
+    value: 3
+  - id: bonus_manager_14
+    type: 0
+    value: 1800
+  - id: bonus_manager_15
+    type: 1
+    value: 3
+  - id: bonus_manager_16
+    type: 0
+    value: 5100
+  - id: bonus_manager_17
+    type: 1
+    value: 3
+  - id: bonus_manager_18
+    type: 1
+    value: 3
+  - id: bonus_manager_19
+    type: 0
+    value: 1500
+  - id: bonus_manager_20
+    type: 1
+    value: 3
+  - id: bonus_manager_21
+    type: 0
+    value: 36000
+  - id: bonus_ceo_1
+    type: 1
+    value: 15
+  - id: bonus_ceo_2
+    type: 1
+    value: 5
+  - id: bonus_ceo_3
+    type: 1
+    value: 5
+  - id: bonus_ceo_4
+    type: 1
+    value: 5
+  - id: bonus_ceo_5
+    type: 0
+    value: 1000
+  - id: bonus_ceo_6
+    type: 1
+    value: 5
+  - id: bonus_ceo_7
+    type: 1
+    value: 5
+  - id: bonus_ceo_8
+    type: 1
+    value: 5
+  - id: bonus_ceo_9
+    type: 1
+    value: 5
+  - id: bonus_ceo_10
+    type: 0
+    value: 7200
+  - id: bonus_ceo_11
+    type: 1
+    value: 10
+  - id: bonus_ceo_12
+    type: 1
+    value: 15
+  - id: bonus_ceo_13
+    type: 1
+    value: 5
+  - id: bonus_ceo_14
+    type: 1
+    value: 5
+  - id: bonus_ceo_15
+    type: 1
+    value: 5
+  - id: bonus_ceo_16
+    type: 0
+    value: 10000
+  - id: bonus_ceo_17
+    type: 1
+    value: 5
+  - id: bonus_ceo_18
+    type: 1
+    value: 5
+  - id: bonus_ceo_19
+    type: 1
+    value: 5
+  - id: bonus_ceo_20
+    type: 1
+    value: 5
+  - id: bonus_ceo_21
+    type: 0
+    value: 72000

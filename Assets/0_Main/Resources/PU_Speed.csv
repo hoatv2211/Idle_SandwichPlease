@@ -1,0 +1,13 @@
+map_id,id,level,value,type_upgrade,cost
+1,pu_speed_1_0,0,3,free,0
+1,pu_speed_1_1,1,3.5,coin,200
+1,pu_speed_1_2,2,4,coin,300
+1,pu_speed_1_3,3,4.5,coin,800
+1,pu_speed_1_4,4,5,coin,1400
+1,pu_speed_1_5,5,5.5,coin,2200
+2,pu_speed_2_0,0,3,free,0
+2,pu_speed_2_1,1,3.5,coin,300
+2,pu_speed_2_2,2,4,coin,450
+2,pu_speed_2_3,3,4.5,coin,1200
+2,pu_speed_2_4,4,5,coin,2100
+2,pu_speed_2_5,5,5.5,coin,3300

@@ -1,0 +1,6 @@
+button.png
+size:428,192
+filter:Linear,Linear
+pma:true
+button
+bounds:2,2,422,187

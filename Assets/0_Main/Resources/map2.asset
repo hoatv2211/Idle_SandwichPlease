@@ -1,0 +1,2159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742d299175428a940a348fd9e140dfd3, type: 3}
+  m_Name: map2
+  m_EditorClassIdentifier: 
+  mapID: 2
+  mapData:
+    mapID: 2
+    crProcess: 0
+    isMoneyBonus: 0
+    playerData:
+      mapID: 
+      idUnit: 
+      name: 
+      dataMapProcess:
+        id: 
+        name: 
+        unlockreq: []
+        unlocknext: []
+        cost: 0
+        exp: 0
+        levelreq: 0
+        type: 0
+      isUnlocked: 0
+      costUnlock: 10
+      residualPrice: 10
+      crLevel: 1
+      moneySave: 0
+    workerData:
+      mapID: 
+      idUnit: 
+      name: 
+      dataMapProcess:
+        id: 
+        name: 
+        unlockreq: []
+        unlocknext: []
+        cost: 0
+        exp: 0
+        levelreq: 0
+        type: 0
+      isUnlocked: 0
+      costUnlock: 10
+      residualPrice: 10
+      crLevel: 1
+      moneySave: 0
+    upgradePlayer:
+      lvCapacity: 5
+      lvSpeed: 5
+      lvProfit: 0
+      capacities:
+      - map_id: 2
+        id: pu_cap_2_0
+        level: 0
+        value: 3
+        type_upgrade: 0
+        cost: 0
+      - map_id: 2
+        id: pu_cap_2_1
+        level: 1
+        value: 6
+        type_upgrade: 0
+        cost: 0
+      - map_id: 2
+        id: pu_cap_2_2
+        level: 2
+        value: 9
+        type_upgrade: 1
+        cost: 300
+      - map_id: 2
+        id: pu_cap_2_3
+        level: 3
+        value: 12
+        type_upgrade: 1
+        cost: 1100
+      - map_id: 2
+        id: pu_cap_2_4
+        level: 4
+        value: 15
+        type_upgrade: 1
+        cost: 2000
+      - map_id: 2
+        id: pu_cap_2_5
+        level: 5
+        value: 18
+        type_upgrade: 1
+        cost: 3000
+      speeds:
+      - map_id: 2
+        id: pu_speed_2_0
+        level: 0
+        value: 3
+        type_upgrade: 0
+        cost: 0
+      - map_id: 2
+        id: pu_speed_2_1
+        level: 1
+        value: 3.5
+        type_upgrade: 1
+        cost: 300
+      - map_id: 2
+        id: pu_speed_2_2
+        level: 2
+        value: 4
+        type_upgrade: 1
+        cost: 450
+      - map_id: 2
+        id: pu_speed_2_3
+        level: 3
+        value: 4.5
+        type_upgrade: 1
+        cost: 1200
+      - map_id: 2
+        id: pu_speed_2_4
+        level: 4
+        value: 5
+        type_upgrade: 1
+        cost: 2100
+      - map_id: 2
+        id: pu_speed_2_5
+        level: 5
+        value: 5.5
+        type_upgrade: 1
+        cost: 3300
+      profitups:
+      - map_id: 2
+        id: pu_profit_2_0
+        level: 0
+        value: 100
+        type_upgrade: 0
+        cost: 0
+      - map_id: 2
+        id: pu_profit_2_1
+        level: 1
+        value: 110
+        type_upgrade: 1
+        cost: 900
+      - map_id: 2
+        id: pu_profit_2_2
+        level: 2
+        value: 120
+        type_upgrade: 1
+        cost: 2400
+      - map_id: 2
+        id: pu_profit_2_3
+        level: 3
+        value: 130
+        type_upgrade: 1
+        cost: 3600
+      - map_id: 2
+        id: pu_profit_2_4
+        level: 4
+        value: 140
+        type_upgrade: 1
+        cost: 4800
+      - map_id: 2
+        id: pu_profit_2_5
+        level: 5
+        value: 150
+        type_upgrade: 1
+        cost: 6000
+    upgradeStaff:
+      lvCapacity: 5
+      lvSpeed: 5
+      lvEmploy: 5
+      capacity:
+      - map_id: 2
+        id: staff_cap_2_0
+        level: 0
+        value: 1
+        type_upgrade: 0
+        cost: 0
+      - map_id: 2
+        id: staff_cap_2_1
+        level: 1
+        value: 2
+        type_upgrade: 1
+        cost: 150
+      - map_id: 2
+        id: staff_cap_2_2
+        level: 2
+        value: 3
+        type_upgrade: 1
+        cost: 300
+      - map_id: 2
+        id: staff_cap_2_3
+        level: 3
+        value: 4
+        type_upgrade: 1
+        cost: 1200
+      - map_id: 2
+        id: staff_cap_2_4
+        level: 4
+        value: 5
+        type_upgrade: 1
+        cost: 2100
+      - map_id: 2
+        id: staff_cap_2_5
+        level: 5
+        value: 6
+        type_upgrade: 1
+        cost: 4200
+      speed:
+      - map_id: 2
+        id: staff_speed_2_0
+        level: 0
+        value: 1.5
+        type_upgrade: 0
+        cost: 0
+      - map_id: 2
+        id: staff_speed_2_1
+        level: 1
+        value: 1.75
+        type_upgrade: 1
+        cost: 300
+      - map_id: 2
+        id: staff_speed_2_2
+        level: 2
+        value: 2
+        type_upgrade: 1
+        cost: 450
+      - map_id: 2
+        id: staff_speed_2_3
+        level: 3
+        value: 2.25
+        type_upgrade: 1
+        cost: 1350
+      - map_id: 2
+        id: staff_speed_2_4
+        level: 4
+        value: 2.5
+        type_upgrade: 1
+        cost: 2400
+      - map_id: 2
+        id: staff_speed_2_5
+        level: 5
+        value: 2.75
+        type_upgrade: 1
+        cost: 4800
+      employ:
+      - map_id: 2
+        id: staff_employ_2_0
+        level: 0
+        value: 0
+        type_upgrade: 0
+        cost: 0
+      - map_id: 2
+        id: staff_employ_2_1
+        level: 1
+        value: 1
+        type_upgrade: 1
+        cost: 0
+      - map_id: 2
+        id: staff_employ_2_2
+        level: 2
+        value: 2
+        type_upgrade: 1
+        cost: 1350
+      - map_id: 2
+        id: staff_employ_2_3
+        level: 3
+        value: 3
+        type_upgrade: 1
+        cost: 3000
+      - map_id: 2
+        id: staff_employ_2_4
+        level: 4
+        value: 4
+        type_upgrade: 1
+        cost: 4500
+      - map_id: 2
+        id: staff_employ_2_5
+        level: 5
+        value: 5
+        type_upgrade: 1
+        cost: 6000
+    customerDatas: []
+    unlocked_UnitDatas:
+    - mapID: 1
+      idUnit: door_1
+      name: door_1
+      dataMapProcess:
+        id: door_1
+        name: door_1
+        unlockreq:
+        - none
+        unlocknext:
+        - table_1_1
+        cost: 100
+        exp: 3
+        levelreq: 9
+        type: 0
+      isUnlocked: 1
+      costUnlock: 100
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: table_1_1
+      name: table_01
+      dataMapProcess:
+        id: table_1_1
+        name: table_01
+        unlockreq:
+        - door_1
+        unlocknext:
+        - sandwich_machine_1_1
+        cost: 130
+        exp: 3
+        levelreq: 9
+        type: 0
+      isUnlocked: 1
+      costUnlock: 130
+      residualPrice: 0
+      crLevel: 3
+      moneySave: 114
+    - mapID: 1
+      idUnit: sandwich_machine_1_1
+      name: sandwich_machine_1
+      dataMapProcess:
+        id: sandwich_machine_1_1
+        name: sandwich_machine_1
+        unlockreq:
+        - table_1_1
+        unlocknext:
+        - counter_1_1
+        cost: 160
+        exp: 3
+        levelreq: 9
+        type: 0
+      isUnlocked: 1
+      costUnlock: 160
+      residualPrice: 0
+      crLevel: 3
+      moneySave: 0
+    - mapID: 1
+      idUnit: counter_1_1
+      name: counter_1
+      dataMapProcess:
+        id: counter_1_1
+        name: counter_1
+        unlockreq:
+        - sandwich_machine_1_1
+        unlocknext:
+        - zone_1
+        - table_2_1
+        cost: 190
+        exp: 3
+        levelreq: 9
+        type: 0
+      isUnlocked: 1
+      costUnlock: 190
+      residualPrice: 0
+      crLevel: 3
+      moneySave: 644
+    - mapID: 1
+      idUnit: table_2_1
+      name: table_02
+      dataMapProcess:
+        id: table_2_1
+        name: table_02
+        unlockreq:
+        - zone_1
+        unlocknext:
+        - counter_1_2
+        cost: 250
+        exp: 3
+        levelreq: 9
+        type: 0
+      isUnlocked: 1
+      costUnlock: 250
+      residualPrice: 0
+      crLevel: 3
+      moneySave: 69
+    - mapID: 1
+      idUnit: counter_1_2
+      name: counter_1
+      dataMapProcess:
+        id: counter_1_2
+        name: counter_1
+        unlockreq:
+        - table_2_1
+        unlocknext:
+        - hr_office
+        cost: 440
+        exp: 3
+        levelreq: 10
+        type: 1
+      isUnlocked: 1
+      costUnlock: 440
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: zone_1
+      name: zone_1
+      dataMapProcess:
+        id: zone_1
+        name: zone_1
+        unlockreq:
+        - counter_1_1
+        unlocknext:
+        - none
+        cost: 200
+        exp: 0
+        levelreq: 10
+        type: 0
+      isUnlocked: 1
+      costUnlock: 200
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: hr_office
+      name: hr_office
+      dataMapProcess:
+        id: hr_office
+        name: hr_office
+        unlockreq:
+        - counter_1_2
+        unlocknext:
+        - upgrade_office
+        cost: 280
+        exp: 3
+        levelreq: 10
+        type: 0
+      isUnlocked: 1
+      costUnlock: 280
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: upgrade_office
+      name: upgrade_office
+      dataMapProcess:
+        id: upgrade_office
+        name: upgrade_office
+        unlockreq:
+        - hr_office
+        unlocknext:
+        - table_3_1
+        cost: 310
+        exp: 3
+        levelreq: 10
+        type: 0
+      isUnlocked: 1
+      costUnlock: 310
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: table_3_1
+      name: table_03
+      dataMapProcess:
+        id: table_3_1
+        name: table_03
+        unlockreq:
+        - upgrade_office
+        unlocknext:
+        - drive_thru_1_1
+        cost: 370
+        exp: 3
+        levelreq: 10
+        type: 0
+      isUnlocked: 1
+      costUnlock: 370
+      residualPrice: 0
+      crLevel: 3
+      moneySave: 27
+    - mapID: 1
+      idUnit: drive_thru_1_1
+      name: drive_thru_1
+      dataMapProcess:
+        id: drive_thru_1_1
+        name: drive_thru_1
+        unlockreq:
+        - table_3_1
+        unlocknext:
+        - package_table_1_1
+        cost: 450
+        exp: 3
+        levelreq: 10
+        type: 0
+      isUnlocked: 1
+      costUnlock: 450
+      residualPrice: 0
+      crLevel: 2
+      moneySave: 120
+    - mapID: 1
+      idUnit: package_table_1_1
+      name: package_table_1
+      dataMapProcess:
+        id: package_table_1_1
+        name: package_table_1
+        unlockreq:
+        - drive_thru_1_1
+        unlocknext:
+        - zone_2
+        cost: 150
+        exp: 3
+        levelreq: 10
+        type: 0
+      isUnlocked: 1
+      costUnlock: 150
+      residualPrice: 0
+      crLevel: 2
+      moneySave: 0
+    - mapID: 1
+      idUnit: zone_2
+      name: zone_2
+      dataMapProcess:
+        id: zone_2
+        name: zone_2
+        unlockreq:
+        - table_3_1
+        unlocknext:
+        - table_4_1
+        cost: 500
+        exp: 0
+        levelreq: 11
+        type: 0
+      isUnlocked: 1
+      costUnlock: 500
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: table_4_1
+      name: table_04
+      dataMapProcess:
+        id: table_4_1
+        name: table_04
+        unlockreq:
+        - zone_2
+        unlocknext:
+        - table_5_1
+        cost: 490
+        exp: 3
+        levelreq: 11
+        type: 0
+      isUnlocked: 1
+      costUnlock: 490
+      residualPrice: 0
+      crLevel: 3
+      moneySave: 15
+    - mapID: 1
+      idUnit: table_5_1
+      name: table_05
+      dataMapProcess:
+        id: table_5_1
+        name: table_05
+        unlockreq:
+        - table_4_1
+        unlocknext:
+        - juice_machine_1_1
+        cost: 520
+        exp: 0
+        levelreq: 11
+        type: 0
+      isUnlocked: 1
+      costUnlock: 520
+      residualPrice: 0
+      crLevel: 3
+      moneySave: 6
+    - mapID: 1
+      idUnit: juice_machine_1_1
+      name: juice_machine_1
+      dataMapProcess:
+        id: juice_machine_1_1
+        name: juice_machine_1
+        unlockreq:
+        - table_5_1
+        unlocknext:
+        - sandwich_machine_2_1
+        cost: 550
+        exp: 3
+        levelreq: 11
+        type: 0
+      isUnlocked: 1
+      costUnlock: 550
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: sandwich_machine_2_1
+      name: sandwich_machine_2
+      dataMapProcess:
+        id: sandwich_machine_2_1
+        name: sandwich_machine_2
+        unlockreq:
+        - juice_machine_1_1
+        unlocknext:
+        - table_6_1
+        cost: 580
+        exp: 3
+        levelreq: 11
+        type: 0
+      isUnlocked: 1
+      costUnlock: 580
+      residualPrice: 0
+      crLevel: 3
+      moneySave: 0
+    - mapID: 1
+      idUnit: table_6_1
+      name: table_06
+      dataMapProcess:
+        id: table_6_1
+        name: table_06
+        unlockreq:
+        - sandwich_machine_2_1
+        unlocknext:
+        - table_7_1
+        cost: 610
+        exp: 3
+        levelreq: 11
+        type: 0
+      isUnlocked: 1
+      costUnlock: 610
+      residualPrice: 0
+      crLevel: 2
+      moneySave: 9
+    - mapID: 1
+      idUnit: table_7_1
+      name: table_07
+      dataMapProcess:
+        id: table_7_1
+        name: table_07
+        unlockreq:
+        - table_6_1
+        unlocknext:
+        - sandwich_machine_1_2
+        cost: 640
+        exp: 3
+        levelreq: 11
+        type: 0
+      isUnlocked: 1
+      costUnlock: 640
+      residualPrice: 0
+      crLevel: 2
+      moneySave: 15
+    - mapID: 1
+      idUnit: sandwich_machine_1_2
+      name: sandwich_machine_1
+      dataMapProcess:
+        id: sandwich_machine_1_2
+        name: sandwich_machine_1
+        unlockreq:
+        - table_7_1
+        unlocknext:
+        - table_1_2
+        cost: 770
+        exp: 3
+        levelreq: 11
+        type: 1
+      isUnlocked: 1
+      costUnlock: 770
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_1_2
+      name: table_01
+      dataMapProcess:
+        id: table_1_2
+        name: table_01
+        unlockreq:
+        - sandwich_machine_1_2
+        unlocknext:
+        - table_2_2
+        cost: 750
+        exp: 3
+        levelreq: 12
+        type: 1
+      isUnlocked: 1
+      costUnlock: 750
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_2_2
+      name: table_02
+      dataMapProcess:
+        id: table_2_2
+        name: table_02
+        unlockreq:
+        - table_1_2
+        unlocknext:
+        - table_3_2
+        cost: 780
+        exp: 3
+        levelreq: 12
+        type: 1
+      isUnlocked: 1
+      costUnlock: 780
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_3_2
+      name: table_03
+      dataMapProcess:
+        id: table_3_2
+        name: table_03
+        unlockreq:
+        - table_2_2
+        unlocknext:
+        - sandwich_machine_2_2
+        cost: 810
+        exp: 3
+        levelreq: 12
+        type: 1
+      isUnlocked: 1
+      costUnlock: 810
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: sandwich_machine_2_2
+      name: sandwich_machine_2
+      dataMapProcess:
+        id: sandwich_machine_2_2
+        name: sandwich_machine_2
+        unlockreq:
+        - table_3_2
+        unlocknext:
+        - table_4_2
+        cost: 890
+        exp: 3
+        levelreq: 12
+        type: 1
+      isUnlocked: 1
+      costUnlock: 890
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_4_2
+      name: table_04
+      dataMapProcess:
+        id: table_4_2
+        name: table_04
+        unlockreq:
+        - sandwich_machine_2_2
+        unlocknext:
+        - table_5_2
+        cost: 900
+        exp: 3
+        levelreq: 12
+        type: 1
+      isUnlocked: 1
+      costUnlock: 900
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_5_2
+      name: table_05
+      dataMapProcess:
+        id: table_5_2
+        name: table_05
+        unlockreq:
+        - table_4_2
+        unlocknext:
+        - drive_thru_1_2
+        cost: 930
+        exp: 3
+        levelreq: 12
+        type: 1
+      isUnlocked: 1
+      costUnlock: 930
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: drive_thru_1_2
+      name: drive_thru_1
+      dataMapProcess:
+        id: drive_thru_1_2
+        name: drive_thru_1
+        unlockreq:
+        - table_5_2
+        unlocknext:
+        - package_table_1_2
+        cost: 1010
+        exp: 3
+        levelreq: 12
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1010
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: package_table_1_2
+      name: package_table_1
+      dataMapProcess:
+        id: package_table_1_2
+        name: package_table_1
+        unlockreq:
+        - drive_thru_1_2
+        unlocknext:
+        - zone_3
+        cost: 1040
+        exp: 3
+        levelreq: 12
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1040
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: zone_3
+      name: zone_3
+      dataMapProcess:
+        id: zone_3
+        name: zone_3
+        unlockreq:
+        - sandwich_machine_2_2
+        unlocknext:
+        - table_6_2
+        cost: 100
+        exp: 0
+        levelreq: 13
+        type: 0
+      isUnlocked: 1
+      costUnlock: 100
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_6_2
+      name: table_06
+      dataMapProcess:
+        id: table_6_2
+        name: table_06
+        unlockreq:
+        - package_table_1_2
+        unlocknext:
+        - table_7_2
+        cost: 1020
+        exp: 3
+        levelreq: 13
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1020
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_7_2
+      name: table_07
+      dataMapProcess:
+        id: table_7_2
+        name: table_07
+        unlockreq:
+        - table_6_2
+        unlocknext:
+        - counter_1_3
+        cost: 1050
+        exp: 3
+        levelreq: 13
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1050
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: counter_1_3
+      name: counter_1
+      dataMapProcess:
+        id: counter_1_3
+        name: counter_1
+        unlockreq:
+        - table_7_2
+        unlocknext:
+        - table_8_1
+        cost: 1230
+        exp: 3
+        levelreq: 13
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1230
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 1
+      idUnit: table_8_1
+      name: table_08
+      dataMapProcess:
+        id: table_8_1
+        name: table_08
+        unlockreq:
+        - counter_1_3
+        unlocknext:
+        - table_9_1
+        cost: 1160
+        exp: 3
+        levelreq: 13
+        type: 0
+      isUnlocked: 1
+      costUnlock: 1160
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 15
+    - mapID: 1
+      idUnit: table_9_1
+      name: table_09
+      dataMapProcess:
+        id: table_9_1
+        name: table_09
+        unlockreq:
+        - table_8_1
+        unlocknext:
+        - table_10_1
+        cost: 1190
+        exp: 3
+        levelreq: 13
+        type: 0
+      isUnlocked: 1
+      costUnlock: 1190
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 12
+    - mapID: 1
+      idUnit: table_10_1
+      name: table_10
+      dataMapProcess:
+        id: table_10_1
+        name: table_10
+        unlockreq:
+        - table_9_1
+        unlocknext:
+        - sandwich_machine_1_3
+        cost: 1220
+        exp: 3
+        levelreq: 13
+        type: 0
+      isUnlocked: 1
+      costUnlock: 1220
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: sandwich_machine_1_3
+      name: sandwich_machine_1
+      dataMapProcess:
+        id: sandwich_machine_1_3
+        name: sandwich_machine_1
+        unlockreq:
+        - table_10_1
+        unlocknext:
+        - table_1_3
+        cost: 1350
+        exp: 3
+        levelreq: 14
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1350
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_1_3
+      name: table_01
+      dataMapProcess:
+        id: table_1_3
+        name: table_01
+        unlockreq:
+        - sandwich_machine_1_3
+        unlocknext:
+        - table_2_3
+        cost: 1280
+        exp: 3
+        levelreq: 14
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1280
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_2_3
+      name: table_02
+      dataMapProcess:
+        id: table_2_3
+        name: table_02
+        unlockreq:
+        - table_1_3
+        unlocknext:
+        - table_3_3
+        cost: 1310
+        exp: 3
+        levelreq: 14
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1310
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_3_3
+      name: table_03
+      dataMapProcess:
+        id: table_3_3
+        name: table_03
+        unlockreq:
+        - table_2_3
+        unlocknext:
+        - juice_machine_1_2
+        cost: 1340
+        exp: 3
+        levelreq: 14
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1340
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: juice_machine_1_2
+      name: juice_machine_1
+      dataMapProcess:
+        id: juice_machine_1_2
+        name: juice_machine_1
+        unlockreq:
+        - table_3_3
+        unlocknext:
+        - table_4_3
+        cost: 1370
+        exp: 3
+        levelreq: 14
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1370
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_4_3
+      name: table_04
+      dataMapProcess:
+        id: table_4_3
+        name: table_04
+        unlockreq:
+        - juice_machine_1_2
+        unlocknext:
+        - table_5_3
+        cost: 1400
+        exp: 3
+        levelreq: 14
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1400
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: table_5_3
+      name: table_05
+      dataMapProcess:
+        id: table_5_3
+        name: table_05
+        unlockreq:
+        - table_4_3
+        unlocknext:
+        - sandwich_machine_2_3
+        cost: 1430
+        exp: 3
+        levelreq: 14
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1430
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    - mapID: 
+      idUnit: sandwich_machine_2_3
+      name: sandwich_machine_2
+      dataMapProcess:
+        id: sandwich_machine_2_3
+        name: sandwich_machine_2
+        unlockreq:
+        - table_5_3
+        unlocknext:
+        - table_6_3
+        cost: 1560
+        exp: 3
+        levelreq: 15
+        type: 1
+      isUnlocked: 1
+      costUnlock: 1560
+      residualPrice: 0
+      crLevel: 1
+      moneySave: 0
+    crUnlocks:
+    - mapID: 
+      idUnit: table_6_3
+      name: table_06
+      dataMapProcess:
+        id: table_6_3
+        name: table_06
+        unlockreq:
+        - sandwich_machine_2_3
+        unlocknext:
+        - table_7_3
+        cost: 1490
+        exp: 3
+        levelreq: 15
+        type: 1
+      isUnlocked: 0
+      costUnlock: 1490
+      residualPrice: 1490
+      crLevel: 1
+      moneySave: 0
+    crTut: []
+    tutCleans:
+    - tut_01
+    - tut_02
+    - tut_04
+    - tut_05
+    - tut_06
+    - tut_07
+    - tut_08
+    - tut_09
+    - tut_10
+    - tut_11
+    - tut_13
+    - tut_14
+    - tut_15
+    - tut_16
+    - tut_17
+    - tut_18
+    - tut_19
+    - tut_20
+    - tut_21
+  mapObjects:
+  - id: door_1
+    name: door_1
+    unlockreq:
+    - none
+    unlocknext:
+    - table_1_1
+    cost: 100
+    exp: 3
+    levelreq: 9
+    type: 0
+  - id: table_1_1
+    name: table_01
+    unlockreq:
+    - door_1
+    unlocknext:
+    - sandwich_machine_1_1
+    cost: 130
+    exp: 3
+    levelreq: 9
+    type: 0
+  - id: sandwich_machine_1_1
+    name: sandwich_machine_1
+    unlockreq:
+    - table_1_1
+    unlocknext:
+    - counter_1_1
+    cost: 160
+    exp: 3
+    levelreq: 9
+    type: 0
+  - id: counter_1_1
+    name: counter_1
+    unlockreq:
+    - sandwich_machine_1_1
+    unlocknext:
+    - zone_1
+    - table_2_1
+    cost: 190
+    exp: 3
+    levelreq: 9
+    type: 0
+  - id: zone_1
+    name: zone_1
+    unlockreq:
+    - counter_1_1
+    unlocknext:
+    - none
+    cost: 200
+    exp: 0
+    levelreq: 10
+    type: 0
+  - id: table_2_1
+    name: table_02
+    unlockreq:
+    - zone_1
+    unlocknext:
+    - counter_1_2
+    cost: 250
+    exp: 3
+    levelreq: 9
+    type: 0
+  - id: hr_office
+    name: hr_office
+    unlockreq:
+    - counter_1_2
+    unlocknext:
+    - upgrade_office
+    cost: 280
+    exp: 3
+    levelreq: 10
+    type: 0
+  - id: upgrade_office
+    name: upgrade_office
+    unlockreq:
+    - hr_office
+    unlocknext:
+    - table_3_1
+    cost: 310
+    exp: 3
+    levelreq: 10
+    type: 0
+  - id: counter_1_2
+    name: counter_1
+    unlockreq:
+    - table_2_1
+    unlocknext:
+    - hr_office
+    cost: 440
+    exp: 3
+    levelreq: 10
+    type: 1
+  - id: table_3_1
+    name: table_03
+    unlockreq:
+    - upgrade_office
+    unlocknext:
+    - drive_thru_1_1
+    cost: 370
+    exp: 3
+    levelreq: 10
+    type: 0
+  - id: zone_2
+    name: zone_2
+    unlockreq:
+    - table_3_1
+    unlocknext:
+    - table_4_1
+    cost: 500
+    exp: 0
+    levelreq: 11
+    type: 0
+  - id: drive_thru_1_1
+    name: drive_thru_1
+    unlockreq:
+    - table_3_1
+    unlocknext:
+    - package_table_1_1
+    cost: 450
+    exp: 3
+    levelreq: 10
+    type: 0
+  - id: package_table_1_1
+    name: package_table_1
+    unlockreq:
+    - drive_thru_1_1
+    unlocknext:
+    - zone_2
+    cost: 150
+    exp: 3
+    levelreq: 10
+    type: 0
+  - id: table_4_1
+    name: table_04
+    unlockreq:
+    - zone_2
+    unlocknext:
+    - table_5_1
+    cost: 490
+    exp: 3
+    levelreq: 11
+    type: 0
+  - id: table_5_1
+    name: table_05
+    unlockreq:
+    - table_4_1
+    unlocknext:
+    - juice_machine_1_1
+    cost: 520
+    exp: 0
+    levelreq: 11
+    type: 0
+  - id: juice_machine_1_1
+    name: juice_machine_1
+    unlockreq:
+    - table_5_1
+    unlocknext:
+    - sandwich_machine_2_1
+    cost: 550
+    exp: 3
+    levelreq: 11
+    type: 0
+  - id: sandwich_machine_2_1
+    name: sandwich_machine_2
+    unlockreq:
+    - juice_machine_1_1
+    unlocknext:
+    - table_6_1
+    cost: 580
+    exp: 3
+    levelreq: 11
+    type: 0
+  - id: table_6_1
+    name: table_06
+    unlockreq:
+    - sandwich_machine_2_1
+    unlocknext:
+    - table_7_1
+    cost: 610
+    exp: 3
+    levelreq: 11
+    type: 0
+  - id: table_7_1
+    name: table_07
+    unlockreq:
+    - table_6_1
+    unlocknext:
+    - sandwich_machine_1_2
+    cost: 640
+    exp: 3
+    levelreq: 11
+    type: 0
+  - id: sandwich_machine_1_2
+    name: sandwich_machine_1
+    unlockreq:
+    - table_7_1
+    unlocknext:
+    - table_1_2
+    cost: 770
+    exp: 3
+    levelreq: 11
+    type: 1
+  - id: table_1_2
+    name: table_01
+    unlockreq:
+    - sandwich_machine_1_2
+    unlocknext:
+    - table_2_2
+    cost: 750
+    exp: 3
+    levelreq: 12
+    type: 1
+  - id: table_2_2
+    name: table_02
+    unlockreq:
+    - table_1_2
+    unlocknext:
+    - table_3_2
+    cost: 780
+    exp: 3
+    levelreq: 12
+    type: 1
+  - id: table_3_2
+    name: table_03
+    unlockreq:
+    - table_2_2
+    unlocknext:
+    - sandwich_machine_2_2
+    cost: 810
+    exp: 3
+    levelreq: 12
+    type: 1
+  - id: sandwich_machine_2_2
+    name: sandwich_machine_2
+    unlockreq:
+    - table_3_2
+    unlocknext:
+    - table_4_2
+    cost: 890
+    exp: 3
+    levelreq: 12
+    type: 1
+  - id: zone_3
+    name: zone_3
+    unlockreq:
+    - sandwich_machine_2_2
+    unlocknext:
+    - table_6_2
+    cost: 100
+    exp: 0
+    levelreq: 13
+    type: 0
+  - id: table_4_2
+    name: table_04
+    unlockreq:
+    - sandwich_machine_2_2
+    unlocknext:
+    - table_5_2
+    cost: 900
+    exp: 3
+    levelreq: 12
+    type: 1
+  - id: table_5_2
+    name: table_05
+    unlockreq:
+    - table_4_2
+    unlocknext:
+    - drive_thru_1_2
+    cost: 930
+    exp: 3
+    levelreq: 12
+    type: 1
+  - id: drive_thru_1_2
+    name: drive_thru_1
+    unlockreq:
+    - table_5_2
+    unlocknext:
+    - package_table_1_2
+    cost: 1010
+    exp: 3
+    levelreq: 12
+    type: 1
+  - id: package_table_1_2
+    name: package_table_1
+    unlockreq:
+    - drive_thru_1_2
+    unlocknext:
+    - zone_3
+    cost: 1040
+    exp: 3
+    levelreq: 12
+    type: 1
+  - id: table_6_2
+    name: table_06
+    unlockreq:
+    - package_table_1_2
+    unlocknext:
+    - table_7_2
+    cost: 1020
+    exp: 3
+    levelreq: 13
+    type: 1
+  - id: table_7_2
+    name: table_07
+    unlockreq:
+    - table_6_2
+    unlocknext:
+    - counter_1_3
+    cost: 1050
+    exp: 3
+    levelreq: 13
+    type: 1
+  - id: counter_1_3
+    name: counter_1
+    unlockreq:
+    - table_7_2
+    unlocknext:
+    - table_8_1
+    cost: 1230
+    exp: 3
+    levelreq: 13
+    type: 1
+  - id: table_8_1
+    name: table_08
+    unlockreq:
+    - counter_1_3
+    unlocknext:
+    - table_9_1
+    cost: 1160
+    exp: 3
+    levelreq: 13
+    type: 0
+  - id: table_9_1
+    name: table_09
+    unlockreq:
+    - table_8_1
+    unlocknext:
+    - table_10_1
+    cost: 1190
+    exp: 3
+    levelreq: 13
+    type: 0
+  - id: table_10_1
+    name: table_10
+    unlockreq:
+    - table_9_1
+    unlocknext:
+    - sandwich_machine_1_3
+    cost: 1220
+    exp: 3
+    levelreq: 13
+    type: 0
+  - id: sandwich_machine_1_3
+    name: sandwich_machine_1
+    unlockreq:
+    - table_10_1
+    unlocknext:
+    - table_1_3
+    cost: 1350
+    exp: 3
+    levelreq: 14
+    type: 1
+  - id: table_1_3
+    name: table_01
+    unlockreq:
+    - sandwich_machine_1_3
+    unlocknext:
+    - table_2_3
+    cost: 1280
+    exp: 3
+    levelreq: 14
+    type: 1
+  - id: table_2_3
+    name: table_02
+    unlockreq:
+    - table_1_3
+    unlocknext:
+    - table_3_3
+    cost: 1310
+    exp: 3
+    levelreq: 14
+    type: 1
+  - id: table_3_3
+    name: table_03
+    unlockreq:
+    - table_2_3
+    unlocknext:
+    - juice_machine_1_2
+    cost: 1340
+    exp: 3
+    levelreq: 14
+    type: 1
+  - id: juice_machine_1_2
+    name: juice_machine_1
+    unlockreq:
+    - table_3_3
+    unlocknext:
+    - table_4_3
+    cost: 1370
+    exp: 3
+    levelreq: 14
+    type: 1
+  - id: table_4_3
+    name: table_04
+    unlockreq:
+    - juice_machine_1_2
+    unlocknext:
+    - table_5_3
+    cost: 1400
+    exp: 3
+    levelreq: 14
+    type: 1
+  - id: table_5_3
+    name: table_05
+    unlockreq:
+    - table_4_3
+    unlocknext:
+    - sandwich_machine_2_3
+    cost: 1430
+    exp: 3
+    levelreq: 14
+    type: 1
+  - id: sandwich_machine_2_3
+    name: sandwich_machine_2
+    unlockreq:
+    - table_5_3
+    unlocknext:
+    - table_6_3
+    cost: 1560
+    exp: 3
+    levelreq: 15
+    type: 1
+  - id: table_6_3
+    name: table_06
+    unlockreq:
+    - sandwich_machine_2_3
+    unlocknext:
+    - table_7_3
+    cost: 1490
+    exp: 3
+    levelreq: 15
+    type: 1
+  - id: table_7_3
+    name: table_07
+    unlockreq:
+    - table_6_3
+    unlocknext:
+    - drive_thru_1_3
+    cost: 1520
+    exp: 3
+    levelreq: 15
+    type: 1
+  - id: drive_thru_1_3
+    name: drive_thru_1
+    unlockreq:
+    - table_7_3
+    unlocknext:
+    - table_8_2
+    cost: 1650
+    exp: 3
+    levelreq: 15
+    type: 1
+  - id: table_8_2
+    name: table_08
+    unlockreq:
+    - drive_thru_1_3
+    unlocknext:
+    - table_9_2
+    cost: 1630
+    exp: 3
+    levelreq: 15
+    type: 1
+  - id: table_9_2
+    name: table_09
+    unlockreq:
+    - table_8_2
+    unlocknext:
+    - table_10_2
+    cost: 1660
+    exp: 3
+    levelreq: 15
+    type: 1
+  - id: table_10_2
+    name: table_10
+    unlockreq:
+    - table_9_2
+    unlocknext:
+    - package_table_1_3
+    cost: 1690
+    exp: 3
+    levelreq: 15
+    type: 1
+  - id: package_table_1_3
+    name: package_table_1
+    unlockreq:
+    - table_10_2
+    unlocknext:
+    - table_8_3
+    cost: 1770
+    exp: 3
+    levelreq: 16
+    type: 1
+  - id: table_8_3
+    name: table_08
+    unlockreq:
+    - package_table_1_3
+    unlocknext:
+    - table_9_3
+    cost: 1800
+    exp: 3
+    levelreq: 16
+    type: 1
+  - id: table_9_3
+    name: table_09
+    unlockreq:
+    - table_8_3
+    unlocknext:
+    - table_10_3
+    cost: 1830
+    exp: 3
+    levelreq: 16
+    type: 1
+  - id: table_10_3
+    name: table_10
+    unlockreq:
+    - table_9_3
+    unlocknext:
+    - juice_machine_1_3
+    cost: 1860
+    exp: 3
+    levelreq: 16
+    type: 1
+  - id: juice_machine_1_3
+    name: juice_machine_1
+    unlockreq:
+    - table_10_3
+    unlocknext:
+    - none
+    cost: 1890
+    exp: 3
+    levelreq: 16
+    type: 1
+  PU_Speed:
+  - map_id: 2
+    id: pu_speed_2_0
+    level: 0
+    value: 3
+    type_upgrade: 0
+    cost: 0
+  - map_id: 2
+    id: pu_speed_2_1
+    level: 1
+    value: 3.5
+    type_upgrade: 1
+    cost: 300
+  - map_id: 2
+    id: pu_speed_2_2
+    level: 2
+    value: 4
+    type_upgrade: 1
+    cost: 450
+  - map_id: 2
+    id: pu_speed_2_3
+    level: 3
+    value: 4.5
+    type_upgrade: 1
+    cost: 1200
+  - map_id: 2
+    id: pu_speed_2_4
+    level: 4
+    value: 5
+    type_upgrade: 1
+    cost: 2100
+  - map_id: 2
+    id: pu_speed_2_5
+    level: 5
+    value: 5.5
+    type_upgrade: 1
+    cost: 3300
+  PU_Capacity:
+  - map_id: 2
+    id: pu_cap_2_0
+    level: 0
+    value: 3
+    type_upgrade: 0
+    cost: 0
+  - map_id: 2
+    id: pu_cap_2_1
+    level: 1
+    value: 6
+    type_upgrade: 0
+    cost: 0
+  - map_id: 2
+    id: pu_cap_2_2
+    level: 2
+    value: 9
+    type_upgrade: 1
+    cost: 300
+  - map_id: 2
+    id: pu_cap_2_3
+    level: 3
+    value: 12
+    type_upgrade: 1
+    cost: 1100
+  - map_id: 2
+    id: pu_cap_2_4
+    level: 4
+    value: 15
+    type_upgrade: 1
+    cost: 2000
+  - map_id: 2
+    id: pu_cap_2_5
+    level: 5
+    value: 18
+    type_upgrade: 1
+    cost: 3000
+  PU_Profit:
+  - map_id: 2
+    id: pu_profit_2_0
+    level: 0
+    value: 100
+    type_upgrade: 0
+    cost: 0
+  - map_id: 2
+    id: pu_profit_2_1
+    level: 1
+    value: 110
+    type_upgrade: 1
+    cost: 900
+  - map_id: 2
+    id: pu_profit_2_2
+    level: 2
+    value: 120
+    type_upgrade: 1
+    cost: 2400
+  - map_id: 2
+    id: pu_profit_2_3
+    level: 3
+    value: 130
+    type_upgrade: 1
+    cost: 3600
+  - map_id: 2
+    id: pu_profit_2_4
+    level: 4
+    value: 140
+    type_upgrade: 1
+    cost: 4800
+  - map_id: 2
+    id: pu_profit_2_5
+    level: 5
+    value: 150
+    type_upgrade: 1
+    cost: 6000
+  Staff_Speed:
+  - map_id: 2
+    id: staff_speed_2_0
+    level: 0
+    value: 1.5
+    type_upgrade: 0
+    cost: 0
+  - map_id: 2
+    id: staff_speed_2_1
+    level: 1
+    value: 1.75
+    type_upgrade: 1
+    cost: 300
+  - map_id: 2
+    id: staff_speed_2_2
+    level: 2
+    value: 2
+    type_upgrade: 1
+    cost: 450
+  - map_id: 2
+    id: staff_speed_2_3
+    level: 3
+    value: 2.25
+    type_upgrade: 1
+    cost: 1350
+  - map_id: 2
+    id: staff_speed_2_4
+    level: 4
+    value: 2.5
+    type_upgrade: 1
+    cost: 2400
+  - map_id: 2
+    id: staff_speed_2_5
+    level: 5
+    value: 2.75
+    type_upgrade: 1
+    cost: 4800
+  Staff_Capacity:
+  - map_id: 2
+    id: staff_cap_2_0
+    level: 0
+    value: 1
+    type_upgrade: 0
+    cost: 0
+  - map_id: 2
+    id: staff_cap_2_1
+    level: 1
+    value: 2
+    type_upgrade: 1
+    cost: 150
+  - map_id: 2
+    id: staff_cap_2_2
+    level: 2
+    value: 3
+    type_upgrade: 1
+    cost: 300
+  - map_id: 2
+    id: staff_cap_2_3
+    level: 3
+    value: 4
+    type_upgrade: 1
+    cost: 1200
+  - map_id: 2
+    id: staff_cap_2_4
+    level: 4
+    value: 5
+    type_upgrade: 1
+    cost: 2100
+  - map_id: 2
+    id: staff_cap_2_5
+    level: 5
+    value: 6
+    type_upgrade: 1
+    cost: 4200
+  Staff_Employ:
+  - map_id: 2
+    id: staff_employ_2_0
+    level: 0
+    value: 0
+    type_upgrade: 0
+    cost: 0
+  - map_id: 2
+    id: staff_employ_2_1
+    level: 1
+    value: 1
+    type_upgrade: 1
+    cost: 0
+  - map_id: 2
+    id: staff_employ_2_2
+    level: 2
+    value: 2
+    type_upgrade: 1
+    cost: 1350
+  - map_id: 2
+    id: staff_employ_2_3
+    level: 3
+    value: 3
+    type_upgrade: 1
+    cost: 3000
+  - map_id: 2
+    id: staff_employ_2_4
+    level: 4
+    value: 4
+    type_upgrade: 1
+    cost: 4500
+  - map_id: 2
+    id: staff_employ_2_5
+    level: 5
+    value: 5
+    type_upgrade: 1
+    cost: 6000
+  unitDataBases:
+  - idUnit: sandwich_machine_1
+    map_id: 2
+    speed_lvs:
+    - 2.5
+    - 2
+    - 1.5
+    - 1
+    - 0.5
+    stack_lvs: []
+    capacity_lvs:
+    - 6
+    - 12
+    - 20
+    revenue_lvs: []
+  - idUnit: sandwich_machine_2_1
+    map_id: 2
+    speed_lvs:
+    - 2.5
+    - 2
+    - 1.5
+    - 1
+    - 0.5
+    stack_lvs: []
+    capacity_lvs:
+    - 6
+    - 12
+    - 20
+    revenue_lvs: []
+  - idUnit: counter_1_1
+    map_id: 2
+    speed_lvs:
+    - 2
+    - 1.65
+    - 1.3
+    - 0.5
+    - 0.25
+    stack_lvs: []
+    capacity_lvs:
+    - 40
+    - 40
+    - 40
+    revenue_lvs: []
+  - idUnit: drive_thru_1_1
+    map_id: 2
+    speed_lvs:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    stack_lvs: []
+    capacity_lvs:
+    - 40
+    - 40
+    - 40
+    revenue_lvs:
+    - 100
+    - 125
+    - 150
+  - idUnit: package_table_1_1
+    map_id: 2
+    speed_lvs:
+    - 10
+    - 8
+    - 6
+    - 4
+    - 2
+    stack_lvs: []
+    capacity_lvs:
+    - 6
+    - 12
+    - 20
+    revenue_lvs: []
+  - idUnit: table_1_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_2_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_3_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_4_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_5_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_6_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_7_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_8_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_9_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_10_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: juice_machine_1_1
+    map_id: 2
+    speed_lvs:
+    - 1
+    - 1
+    - 1
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs:
+    - 100
+    - 125
+    - 150
+  levelProcesses:
+  - level: 1
+    map_id: 2
+    point_space: 000000002d000000
+    value_customer: 0100000002000000
+    value_quest: 0f000000
+    booster_money: 58020000
+  - level: 2
+    map_id: 2
+    point_space: 2d00000032000000
+    value_customer: 0100000002000000
+    value_quest: 0f000000
+    booster_money: 84030000
+  - level: 3
+    map_id: 2
+    point_space: 3200000037000000
+    value_customer: 0200000003000000
+    value_quest: 0f000000
+    booster_money: b0040000
+  - level: 4
+    map_id: 2
+    point_space: 370000003c000000
+    value_customer: 0200000003000000
+    value_quest: 14000000
+    booster_money: dc050000
+  - level: 5
+    map_id: 2
+    point_space: 3c00000041000000
+    value_customer: 0300000004000000
+    value_quest: 14000000
+    booster_money: 08070000
+  - level: 6
+    map_id: 2
+    point_space: 4100000046000000
+    value_customer: 0300000004000000
+    value_quest: 14000000
+    booster_money: 34080000
+  - level: 7
+    map_id: 2
+    point_space: 460000004b000000
+    value_customer: 0400000005000000
+    value_quest: 19000000
+    booster_money: 60090000
+  - level: 8
+    map_id: 2
+    point_space: 4b00000050000000
+    value_customer: 0400000005000000
+    value_quest: 19000000
+    booster_money: 8c0a0000
+  - level: 9
+    map_id: 2
+    point_space: 5000000055000000
+    value_customer: 0400000005000000
+    value_quest: 19000000
+    booster_money: b80b0000
+  - level: 10
+    map_id: 2
+    point_space: 550000005a000000
+    value_customer: 0400000005000000
+    value_quest: 1e000000
+    booster_money: e40c0000
+  - level: 11
+    map_id: 2
+    point_space: 5a0000005f000000
+    value_customer: 0400000005000000
+    value_quest: 1e000000
+    booster_money: 100e0000
+  - level: 12
+    map_id: 2
+    point_space: 5f00000065000000
+    value_customer: 0400000005000000
+    value_quest: 1e000000
+    booster_money: 3c0f0000

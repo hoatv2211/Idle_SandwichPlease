@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "262756925738",
+    "project_id": "gab012---sandwich-please",
+    "storage_bucket": "gab012---sandwich-please.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262756925738:android:d543c03026a5aed0e35e53",
+        "android_client_info": {
+          "package_name": "com.gb.sandwichidle.burgerplease.pizza.coffee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPJu-8pJB2ofTVB60igvS9nEXK7byyZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      },
+      "admob_app_id": "ca-app-pub-2619115275901739~7691945342"
+    }
+  ],
+  "configuration_version": "1"
+}

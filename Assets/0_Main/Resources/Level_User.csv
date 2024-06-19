@@ -1,0 +1,17 @@
+level,exp_req,bonus_money,feature_unlocks,value_quest,booster_money,bonus_free,bonus_manager,bonus_ceo
+1,15,100,none,15,400,bonus_free_1,bonus_manager_1,bonus_ceo_1
+2,24,200,zone|stucture,15,600,bonus_free_2,bonus_manager_2,bonus_ceo_2
+3,39,300,zone|stucture,15,800,bonus_free_3,bonus_manager_3,bonus_ceo_3
+4,54,400,zone|stucture,20,1000,bonus_free_4,bonus_manager_4,bonus_ceo_4
+5,78,500,zone|stucture,20,1200,bonus_free_5,bonus_manager_5,bonus_ceo_5
+6,96,600,stucture,20,1400,bonus_free_6,bonus_manager_6,bonus_ceo_6
+7,117,700,stucture,25,1600,bonus_free_7,bonus_manager_7,bonus_ceo_7
+8,135,800,newmap,25,1800,bonus_free_8,bonus_manager_8,bonus_ceo_8
+9,150,900,zone|stucture,25,2000,bonus_free_9,bonus_manager_9,bonus_ceo_9
+10,168,1000,zone|stucture,30,2200,bonus_free_10,bonus_manager_10,bonus_ceo_10
+11,186,1100,stucture,30,2400,bonus_free_11,bonus_manager_11,bonus_ceo_11
+12,207,1200,zone|stucture,30,2600,bonus_free_12,bonus_manager_12,bonus_ceo_12
+13,228,1300,stucture,30,2800,bonus_free_13,bonus_manager_13,bonus_ceo_13
+14,249,1400,stucture,30,3000,bonus_free_14,bonus_manager_14,bonus_ceo_14
+15,270,1500,stucture,30,3200,bonus_free_15,bonus_manager_15,bonus_ceo_15
+16,285,1600,zone|stucture,30,3400,bonus_free_16,bonus_manager_16,bonus_ceo_16

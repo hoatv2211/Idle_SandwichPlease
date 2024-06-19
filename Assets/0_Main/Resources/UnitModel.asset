@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53524fcad9d8f464e9ff75169a5e9f26, type: 3}
+  m_Name: UnitModel
+  m_EditorClassIdentifier: 
+  unitDataBases:
+  - idUnit: sandwich_machine_1_1
+    map_id: 1
+    speed_lvs:
+    - 2.5
+    - 1.5
+    - 0.5
+    stack_lvs: []
+    capacity_lvs:
+    - 6
+    - 12
+    - 20
+    revenue_lvs: []
+  - idUnit: sandwich_machine_2_1
+    map_id: 1
+    speed_lvs:
+    - 2.5
+    - 1.5
+    - 0.5
+    stack_lvs: []
+    capacity_lvs:
+    - 6
+    - 12
+    - 20
+    revenue_lvs: []
+  - idUnit: counter_1_1
+    map_id: 1
+    speed_lvs:
+    - 2.25
+    - 1.25
+    - 0.25
+    stack_lvs: []
+    capacity_lvs:
+    - 40
+    - 40
+    - 40
+    revenue_lvs: []
+  - idUnit: drive_thru_1_1
+    map_id: 1
+    speed_lvs:
+    - 2
+    - 2
+    - 2
+    stack_lvs: []
+    capacity_lvs:
+    - 40
+    - 40
+    - 40
+    revenue_lvs:
+    - 100
+    - 125
+    - 150
+  - idUnit: package_table_1_1
+    map_id: 1
+    speed_lvs:
+    - 10
+    - 6
+    - 2
+    stack_lvs: []
+    capacity_lvs:
+    - 6
+    - 12
+    - 20
+    revenue_lvs: []
+  - idUnit: table_1_1
+    map_id: 1
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_2_1
+    map_id: 1
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_3_1
+    map_id: 1
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_4_1
+    map_id: 1
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_5_1
+    map_id: 1
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_6_1
+    map_id: 1
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_7_1
+    map_id: 1
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_8_1
+    map_id: 1
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_9_1
+    map_id: 1
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: sandwich_machine_1
+    map_id: 2
+    speed_lvs:
+    - 2.5
+    - 2
+    - 1.5
+    - 1
+    - 0.5
+    stack_lvs: []
+    capacity_lvs:
+    - 6
+    - 12
+    - 20
+    revenue_lvs: []
+  - idUnit: sandwich_machine_2_1
+    map_id: 2
+    speed_lvs:
+    - 2.5
+    - 2
+    - 1.5
+    - 1
+    - 0.5
+    stack_lvs: []
+    capacity_lvs:
+    - 6
+    - 12
+    - 20
+    revenue_lvs: []
+  - idUnit: counter_1_1
+    map_id: 2
+    speed_lvs:
+    - 2
+    - 1.65
+    - 1.3
+    - 0.5
+    - 0.25
+    stack_lvs: []
+    capacity_lvs:
+    - 40
+    - 40
+    - 40
+    revenue_lvs: []
+  - idUnit: drive_thru_1_1
+    map_id: 2
+    speed_lvs:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    stack_lvs: []
+    capacity_lvs:
+    - 40
+    - 40
+    - 40
+    revenue_lvs:
+    - 100
+    - 125
+    - 150
+  - idUnit: package_table_1_1
+    map_id: 2
+    speed_lvs:
+    - 10
+    - 8
+    - 6
+    - 4
+    - 2
+    stack_lvs: []
+    capacity_lvs:
+    - 6
+    - 12
+    - 20
+    revenue_lvs: []
+  - idUnit: table_1_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_2_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_3_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_4_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_5_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_6_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_7_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_8_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_9_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: table_10_1
+    map_id: 2
+    speed_lvs:
+    - 3
+    - 2.5
+    - 2
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs: []
+  - idUnit: juice_machine_1_1
+    map_id: 2
+    speed_lvs:
+    - 1
+    - 1
+    - 1
+    stack_lvs: []
+    capacity_lvs: []
+    revenue_lvs:
+    - 100
+    - 125
+    - 150
